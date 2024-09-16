@@ -42,7 +42,7 @@ The project consists of three tasks:
     ```
 2. Prepare the `pattern1.txt` and `input1.txt` files.
    - **pattern1.txt**: The file should contain a pattern of lowercase letters (e.g., `abc`).
-   - **input1.txt**: The file should contain an input string you wish to check against the DFSM (e.g., `xabcy`).
+   - **input1.txt**: The file should contain an input string you wish to check against the DFSM (e.g., `aabcbcaaaacccc`).
 
 3. Compile the program.
     ```bash
@@ -61,12 +61,12 @@ The project consists of three tasks:
 ### Example
 #### Input
 - `pattern1.txt`: Contains the pattern `abc`.
-- `input1.txt`: Contains the input string `xabcy`.
+- `input1.txt`: Contains the input string `aabcbcaaaacccc`.
 
 #### Output
 ```
 Input Pattern: abc
-Input String: xabcy
+Input String: aabcbcaaaacccc
 NDFSM written to NDFSM.txt successfully!
 Read NDFSM.txt successfully
 Constructed DFSM.txt from the NDFSM.txt successfully
